@@ -1,8 +1,8 @@
 CC=cc
 FLAGS=-Wall -Wextra -Werror -ansi -pedantic
 LIB=libft
-SRC=./SRC/ft_putchar.c
-OBJ=./OBJ/ft_putchar.o
+SRC=./SRC/*.c
+OBJ=./OBJ/*.o
 DONE=./Libft/libft.a
 
 all:$(LIB)
