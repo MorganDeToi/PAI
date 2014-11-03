@@ -10,6 +10,5 @@ Utilisation :
 3 -- Make re
 4 -- Make clean
 5 -- Make fclean
-6 -- Make info
 
 
