@@ -1,6 +1,7 @@
 #include <unistd.h>
 #include <string.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 #ifndef LIBFT_H_
 #define LIBFT_H_
@@ -26,5 +27,29 @@ char	*ft_strstr(const char*meule, const char *aiguille);
 char	*ft_strnstr(const char *meule, const char *aiguille, size_t len);
 int	ft_strcmp(const char *s1, const char *s2);
 int	ft_strncmp(const char *s1, const char *s2, size_t len);
+int	ft_toupper(int c);
+int	ft_tolower(int c);
+int	ft_isalpha(int c);
+int	ft_isdigit(int c);
+int	ft_isalnum(int c);
+int	ft_isascii(int c);
+int	ft_isprint(int c);
+int	ft_atoi(const char *s);
+void	*ft_memalloc(size_t size);
+void	ft_memdel(void **ap);
+void	ft_putendl(char const *s);
+void	ft_putstr(char *s);
+void	ft_strclr(char *s);
+void	*ft_strdel(char **as);
+int	ft_strequ(char const *s1, char const *s2);
+int	ft_strnequ(char const *s1, char const *s2, size_t n);
+char	*ft_strjoin(char const *s1, char const *s2);
+char	**ft_strsplit(char const *s, char c);
+char	*ft_strtrim(char const *s);
+char	*ft_strnew(size_t size);
+void	ft_putstr_fd(char *s, int fd);
+void	ft_putchar_fd(char c, int fd);
+
+
 
 #endif
