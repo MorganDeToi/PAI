@@ -4,7 +4,9 @@ char	**ft_strsplit(char const *s, char c)
 {
 	int xi;
 	char **new_ss;
+
 	new_ss = malloc(sizeof(s + 1));
+	xi = 0;
 	
 	while(s[xi] != '\0')
 	{
